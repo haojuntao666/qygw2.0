@@ -1,0 +1,209 @@
+.panel{
+	width:100%;
+	height:100%;
+	min-width:1200px;
+	/*background: #ccc;*/	
+	
+}
+
+.main{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+	margin-top:80px;
+	
+
+}
+
+
+
+/*导航title*/
+.bg{
+	background: #1E47AD;
+	color:#fff;
+}
+
+
+.titlebg{
+	background: #fff;
+	color:#1E47AD;
+}
+
+.intro-banner{
+	width:100%;
+	height:400px;
+	/*background: #ccc;*/
+	/*background: url(../images/banner.png) center center;*/
+	overflow: hidden;
+}
+
+
+
+.intro-title{
+	width:100%;
+	min-width:1200px;
+	height:50px;
+	background: #eee;
+	margin:0 auto;
+	
+}
+
+.title-content{
+	width:1200px;
+	height:50px;
+	margin:0 auto;
+	/*background: red;*/
+}
+.title-left{
+	float: left;
+}
+.title-left span{
+	display: inline-block;
+	width:100px;
+	height:50px;
+	font:normal 14px/18px "微软雅黑";
+	line-height:50px;
+	text-align: center;
+	
+}
+
+
+
+
+
+.title-right{
+	float: left;
+}
+.title-right ul li{
+	float: left;
+	list-style: none;
+	width:100px;
+	height:50px;
+}
+
+.title-right ul li a{
+	text-decoration: none;
+	display: inline-block;
+	width:100px;
+	height:50px;
+	font:normal 14px/18px "微软雅黑";
+	line-height: 50px;
+	text-align: center;
+	
+}
+.title-right ul li a:hover{
+	background: #fff;
+	color:#1E47AD;
+}
+
+
+
+/*主题*/
+.intro-body{
+	width:100%;
+	min-width:1200px;
+	height:auto;
+	/*background: #676767;*/
+}
+
+.body-container{
+	width:1200px;
+	/*height:250px;*/
+	height:auto;
+	
+	/*background: #008C4B;*/
+	margin:0 auto;
+	overflow: hidden;
+	margin-top:50px;
+}
+
+.about-title{
+	width:1200px;
+	height:50px;
+	/*background: #009F95;*/
+	overflow: hidden;
+}
+
+.about-content{
+	width:1200px;
+	/*height:200px;*/
+	height:auto;
+	/*background: #1E47AD;*/
+	overflow: hidden;
+}
+
+
+
+
+
+
+.con-left{
+	float: left;
+	width:1200px;
+	/*height:150px;*/
+	height:auto;
+	/*background: red;*/
+	border-top:1px solid #D0D0D0;
+	
+}
+.con-left p{
+	font:normal 14px/36px "微软雅黑";
+	text-indent:30px;
+	margin-top:30px;
+}
+.con-left p:nth-child(3){
+	margin-bottom:30px;
+}
+
+
+
+.team-lunbo{
+	width:100%;
+	min-width:1200px;
+	height:500px;
+	/*background: #028D4C;*/
+	overflow: hidden;
+	margin-bottom:80px;
+}
+
+
+
+
+.demo {
+	width: 1200px; 
+	height:500px;
+	font-size: 14px;
+	position:relative;
+	margin:0 auto;
+}
+.demo a.control {
+	position:absolute;
+	display: block;
+	top: 50%;
+	margin-top: -78px;
+	width: 76px;
+	height: 112px;
+	cursor: pointer;
+	z-index: 2;
+	background: url(../images/buttons.png) no-repeat;
+}
+.demo a.prev {
+	left: 0;
+	background-position: 0 0;
+}
+.demo a.next {
+	right: 0;
+	background-position: -76px 0;
+}
+.demo a.prev:hover {
+	background-position: 0 -112px;
+}
+.demo a.next:hover {
+	background-position: -76px -112px;
+}
+
+.slider {
+	display: none;
+}
+
+

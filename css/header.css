@@ -1,0 +1,250 @@
+/*头部*/
+.header{
+	width:100%;
+	height:80px;
+	min-width:1200px;
+	background:#fff;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:1000;
+	box-shadow: 2px 2px 2px #eee;
+	-moz-box-shadow: 2px 2px 2px #eee;
+	/*background: #4476A7;*/
+}
+
+.con{
+	width:1200px;
+	height:80px;
+	background: #fff;	
+	margin:0 auto;
+	
+	
+				
+}
+
+/*logo*/
+.con .logo{
+	width:174px;
+	height:30px;
+	float:left;
+	margin-right:22%;
+	margin-top:26px;
+	overflow: hidden;
+}
+/*.con .logo img{
+	width:100%;
+	height:100%;
+}	*/
+
+
+		
+.con ul{
+	float:left;
+	height:80px;
+	/*background: red;*/
+				
+}
+.con li{
+				
+	list-style-type:none;				
+	float:left;
+	width:100px;
+	height:76px;
+	line-height:76px;
+	text-align: center;
+	
+	position:relative;		
+			
+}
+
+.con li a:hover{
+	color:#1C47AC;
+		
+}
+
+
+
+.load{
+	border-bottom:4px solid #4476A7 ;
+}	
+
+
+		
+.active{
+	/*background:#41A76A;*/	
+	border-bottom:4px solid #4476A7;							
+}
+
+
+ul li .title{
+	/*font-weight: bold;*/
+	font:normal 16px/50px "微软雅黑";
+	display: inline-block;
+	width:100px;
+	height:50px;
+}
+
+			
+.menu{
+	width:100px;
+	height:92px;
+	position:absolute;
+	top:80px;
+	left:0px;
+	display: none;
+	z-index:1000;
+	background:#F4FDFA;
+	
+				
+}
+
+/*新闻中心*/
+
+.news-center{
+	width:100px;
+	height:61px;
+}
+
+
+
+
+
+/*会员*/
+
+.vip{
+	width:100px;
+	height:92px;
+}
+			
+.menu p{
+	
+	border-top:none;
+	width:100px;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #eee;
+								
+}
+
+/*.menu p:last-child{
+	border-bottom:0;
+}*/
+
+.menu p a{
+	/*font-weight: bold;*/
+	display: inline-block;
+	width:100px;
+	height:30px;
+	font:normal 14px/30px "微软雅黑";
+	
+	
+				
+}
+.menu p a:hover{
+	background: #1C47AC;
+	color:#fff;
+				
+}
+
+
+
+/*会议活动*/
+
+
+.event-center{
+	width:100px;
+	height:60px;
+	
+}
+
+.event-center p a{
+	display: inline-block;
+	width:80px;
+	height:44px;
+	padding:8px 10px;
+	
+	line-height:20px;
+	
+	
+}
+
+
+.event-center p a:hover{
+	background: #1C47AC;
+	color:#fff;
+}
+
+
+
+
+
+
+/*头部最右边下拉*/
+
+
+.slide{
+	float:left;
+	width:160px;
+	height:40px;
+	background: #1C47AC;
+	
+	
+	margin-top:22px;
+	margin-left:100px;
+	position:relative;
+ }
+ 
+ .slide-title{
+ 	width:160px;
+	height:40px;
+ 	
+	text-align: center;
+ 	font:normal 14px/30px "微软雅黑";
+ 	line-height:40px;
+ 	color:#fff;
+ }
+ 
+ 
+.slide-title:hover{
+	cursor: pointer;
+}
+.sli-list{
+	width:200px;
+	height:59px;
+	background: #F4FDFA;
+	display: none;
+	position:absolute;
+	top:40px;
+	left:0;
+	/*background: red;*/
+	overflow: hidden;
+
+	
+}
+.sli-list p{
+	font:normal 14px/30px "微软雅黑";
+	
+	text-align: center;
+}
+.sli-list p:nth-child(1){
+	height:29px;
+	line-height:29px;
+	border-bottom:1px solid #eee;
+}
+
+.sli-list p:nth-child(2){
+	height:30px;
+	line-height:30px;
+}
+
+.sli-list p a{
+	display: block;
+	/*width:200px;
+	height:30px;*/
+}
+
+.sli-list p a:hover{
+	background: #4476A7;
+	color:#fff;
+}

@@ -1,0 +1,424 @@
+/*头部*/
+
+.main{
+	position: relative;
+	margin-top:80px;
+}
+/*滑屏切换*/
+.panel{
+	width:100%;
+	height:100%;
+	min-width:1200px;
+	
+	
+}
+
+
+/*图片*/
+.box{
+	width:100%;
+	
+	/*height:auto;*/
+	height:600px;
+	overflow: hidden;
+	background: red;
+	background: url(../images/backcolor.png) no-repeat center center;
+	
+}
+
+/*头部视频*/
+
+.video{
+	width:1200px;
+	height:600px;
+	overflow: hidden;
+	margin:0 auto;
+	/*background: #ccc;*/
+}
+
+.video-title{
+	text-align: center;
+	font:normal 20px/40px "微软雅黑";
+	height:60px;
+	line-height:60px;
+	font-weight:bold;
+	color:#fff;
+	margin-top:10px;
+}
+
+.video-box{
+	width:560px;
+	height:400px;
+	background: #68838B;
+	margin:0 auto;
+	text-align: center;
+	color:#fff;
+	line-height:400px;
+	
+}
+
+.video-src{
+	width:100px;
+	height:50px;
+	margin:0 auto;
+	margin-top:30px;
+	border:2px solid #fff;
+	font:normal 14px/40px "微软雅黑";
+	line-height:50px;
+	text-align: center;
+	/*color:#fff;*/
+}
+.video-src a{
+	display: inline-block;
+	width:100px;
+	height:50px;
+	color:#fff;
+}
+
+
+
+
+/*第2部分资讯*/
+
+.news{
+	width:1200px;
+	height:800px;
+	margin:0 auto;
+	/*background: #428BCA;*/
+	padding-top:40px;
+	/*padding-bottom:10px;*/
+	overflow: hidden;
+
+}
+
+.news_top{
+	width:1200px;
+	
+	text-align: center;
+	/*background: #008C4B;*/
+	
+}
+
+.news_top p.news-title{
+	font:normal 20px/50px "微软雅黑";
+	/*color:#41A76A;*/
+}
+
+.news_bottom{
+	width:1200px;
+	height:750px;
+	/*background: #41A76A;*/
+	margin:0 auto;
+	overflow: hidden;
+	
+}
+
+.bot-top{
+	width:1200px;
+	height:300px;
+	/*background: red;*/
+	margin:0 auto;
+	
+}
+
+
+.top-right{
+	
+	width:1200px;
+	height:300px;
+
+	/*background: #009F95;*/
+	overflow:hidden;
+	position:relative;
+}
+.top-right a{
+	display: inline-block;
+	width:900px;
+	height:260px;
+	padding:20px 10px 20px 30px;
+	background: #fff;
+	margin-left:260px;
+	
+	
+}
+.top-left{
+	position: absolute;
+	width:280px;
+	height:200px;
+	top:50px;
+	left:0;
+}
+.top-left img{
+	width:100%;
+	height:100%;
+}
+.top-right dt{
+	width:900px;
+	/*height:30px;*/
+	/*background: red;*/
+	font:normal 16px/40px "微软雅黑";
+	font-weight:bold;
+	overflow: hidden;
+	
+}
+
+.top-right dd{
+	font:normal 14px/30px "微软雅黑";
+}
+.top-right dd.time{
+	color:#1845AF;
+}
+.top-right dd.txt{
+	text-indent: 30px;
+	height:186px;
+	/*background: red;*/
+	overflow: hidden;
+}
+
+
+
+
+.bot-bottom{
+	width:1200px;
+	height:360px;
+	/*background: #0099FF;*/
+	margin:0 auto;
+}
+
+
+.bot-bottom ul li{
+	list-style: none;
+	float: left;
+	width:500px;
+	height:140px;
+	overflow: hidden;
+	/*background: #4638BF;*/
+	
+	margin-right:200px;
+	margin-top:20px;
+}
+
+/*.bot-bottom ul li:nth-child(2){
+	margin-right:0px;
+}
+
+.bot-bottom ul li:nth-child(4){
+	margin-right:0px;
+}*/
+
+.info-time{
+	float:left;
+	width:80px;
+	height:80px;
+	background: #fff;
+	margin-top:20px;
+	
+}
+.info-time p.time-mouth{
+	font:normal 26px/40px "微软雅黑";
+	text-align: center;
+	margin-top:4px;
+}
+.info-time p.time-year{
+	font:normal 16px/40px "微软雅黑";
+	text-align: center;
+	color:#828282;
+}
+.info-src{
+	float:left;
+	width:400px;
+	height:120px;
+	/*background: blue;*/
+	padding: 10px 10px;
+	overflow: hidden;
+}
+.info-src dt{
+	width:400px;
+	
+	font:normal 16px/40px "微软雅黑";
+	/*font-weight:bold;*/
+	
+	
+}
+.info-src dd{
+	width:400px;
+	height:80px;
+	/*background: #990000;*/
+	text-indent:30px;
+	overflow: hidden;
+	font:normal 14px/26px "微软雅黑";
+}
+
+
+.more{
+	display: block;
+	width:158px;
+	height:48px;
+	margin:0 auto;
+	margin-top:20px;
+	
+	
+	border:2px solid #234BAF;
+	
+	/*position:relative;
+	behavior: url(pie.htc);
+	z-index:3;
+	border-radius: 20px;
+	-moz-border-radius: 20px;
+	-webkit-border-radius:20px;*/
+	
+}
+
+.more a{
+	display:block;
+	width:158px;
+	height:48px;
+	font:normal 16px/40px "微软雅黑";
+	text-align: center;
+	line-height:48px;
+}
+
+
+
+
+/*第3部分*/
+.food{
+	width:100%;
+	min-width:1200px;
+	height:620px;
+	
+	background: #000;
+	
+
+}
+
+.food_top{
+	margin:0 auto;
+	padding-top:60px;
+	
+	text-align: center;
+	/*background: #0000FF;*/
+}
+.food_top p.food-title{
+	font:normal 20px/50px "微软雅黑";
+	color:#fff;
+}
+
+
+/*.food_bottom{
+	width:1200px;
+	height:110px;
+	margin:0 auto;
+	background: red;
+
+}*/
+
+
+/*轮播*/
+.food_lunbo{
+	width:100%;
+	min-width:1200px;
+	
+	
+	height:500px;
+
+	margin:0 auto;
+	
+	overflow: hidden;
+	
+}
+
+
+.scroll a,img{
+	border:0;
+}
+
+
+/*.scroll img{
+	width:100%;
+	height:100%;
+}*/
+table{
+	empty-cells:show;
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.scroll{
+	width:100%;
+	min-width:1200px;
+
+	
+	color:#333333;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+
+.scroll img{
+	width:320px;
+	height:460px;
+	border:solid 1px #000;
+	margin:0 5px;
+}
+.scroll a:hover img{
+	border:solid 1px #000;
+}
+
+.scroll td{
+	position:relative;
+}
+
+
+.model-txt{
+	position:absolute;
+	width:200px;
+	height:100px;
+	/*background: red;*/
+	font:normal 20px/40px "微软雅黑";
+	color:#fff;
+	text-align: center;
+	top:50%;
+	left:50%;
+	margin-left:-100px;
+	margin-top:-50px;
+	
+}
+.model{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	/*background: rgba(0,0,0,.5);*/
+	
+	z-index:100;
+	display: none;
+	
+}
+
+
+.model-content{
+	width:200px;
+	height:300px;
+	margin:0 auto;
+	/*background: #1E9FFF;*/
+	margin-top:80px;
+}
+
+.model-content p.con-title{
+	font:normal 20px/26px "微软雅黑";
+	color:#fff;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.model-content p.con-txt{
+	width:200px;
+	height:160px;
+	/*background: red;*/
+	font:normal 14px/26px "微软雅黑";
+	color:#fff;
+	text-align: center;
+}
+
